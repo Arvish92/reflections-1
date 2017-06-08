@@ -1,15 +1,32 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	using 'git init' within a directory creates a file called '.git'
+	This file is hidden, but can be seen by using 'ls -a'
+	Initializing a repository is the first step in beginning to track changes
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+	repository is historical data; directory can include files not part of the repository or staging area; staging area holds files you have determined are related to be tracked together by the repository
+	The staging area allows me to organize my repository as I see fit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	using 'git diff' with no arguments or 'git diff --staged'
+	these commands help show you what you have done but not committed
+	using this info you can properly define the change(s)
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	branches are good for alternate versions or experiments
+	they can be helpful is working on multiple variations with unrelated changes simultaneously
+
 How do the diagrams help you visualize the branch structure?
+
+	it helps to look from the tip back down the branch so you know what you can see from where you are
+	also, it helps visualize why you may not be able to see a commit you might be looking for
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
