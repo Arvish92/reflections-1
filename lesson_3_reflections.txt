@@ -41,4 +41,13 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you are experimenting and are unsure of how you'll affect
+    the master
+    When you are not the manager of the project and changes must
+    be reviewed my the manager
+    When you are not the only one working on that file of section
+
+    One benefit of separate branches is that it is safer
+    One benefit of working directly in master is that you don't have
+    to spend time merging, pulling, pushing, and submitting pull
+    requests.
